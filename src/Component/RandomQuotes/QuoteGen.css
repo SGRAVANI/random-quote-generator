@@ -1,0 +1,79 @@
+#quote-box{
+    margin:0;
+    padding:0;
+    position: absolute;
+    left:50%;
+    top:35%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.wrapper{
+    width:100%;
+    height: 100vh;
+}
+.text-right{
+    text-align: right;
+}
+#new-quote{
+    padding:8px 18px 6px 18px;
+    color:white;
+    border:none;
+    border-radius:3px;
+    background-color: transparent;
+    transition: all 0.5s linear;
+   
+}
+.text h1{
+    font-weight:500;
+    font-size:1.75rem;
+   
+    /* animation: blink 1s ease-in;
+    animation-iteration-count: 1; */
+    opacity: 1;
+    transition: all 1s ease-out ; 
+    
+}
+/* .col-6{
+    flex-direction: row;
+    justify-content: flex-start!important;
+} */
+.text-left{
+    text-align:left;
+}
+#author{
+    padding-top: 20px;
+    font-size: 1rem;
+}
+.button{
+    margin-top:30px;
+   display:inline-block;
+} 
+.left-button{
+    border-radius: 5px;
+    /* height: 30px; */
+    width: 40px;
+    text-align: center;
+}
+a{
+   padding: 0px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+
+    text-decoration: none !important;
+    
+}
+
+
+@keyframes blink {
+    0%{
+        opacity: 0.3;
+    }
+    50%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 1;
+    }
+}
